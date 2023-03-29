@@ -4,7 +4,8 @@ public class findMax {
     public static void main(String[] args) {
         int arr[]=new int[]{1,2,3,4,5,6,7,8,9};
         findMax findMax = new findMax();
-        findMax.getMax(arr);
+        int max = findMax.getMax(arr);
+        System.out.println(max);
     }
 
     public int getMax(int[] arry ){
